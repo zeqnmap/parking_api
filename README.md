@@ -177,3 +177,14 @@ curl -X DELETE http://localhost:5000/client_parking \
   -H "Content-Type: application/json" \
   -d '{"client_id": 1, "parking_id": 1}'
 ```
+
+### Run tests
+```bash
+cd tests/
+pytest -v
+```
+You will see 18 passed tests
+
+---
+
+## **🏁 Author: zeqnmap**
